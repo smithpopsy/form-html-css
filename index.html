@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h2>Contact Us</h2>
+      <!-- section-1 -->
+      <section class="fullname-container">
+        <div>
+          <!-- firstname -->
+          <label for="first-name">First name*</label>
+          <input class="input-group" type="text" id="first-name" />
+        </div>
+        <!-- last-name -->
+        <div>
+          <label for="last-name">Last name*</label>
+          <input class="input-group" type="text" id="last-name" />
+        </div>
+      </section>
+      <!-- section-2 -->
+      <section>
+        <!-- email-address -->
+        <label for="email">Email Address</label>
+        <input class="input-group" type="email" name="" id="email" />
+      </section>
+      <!-- section-3 Query type* -->
+      <section class="query-type">
+        <div class="query-type-label">
+          <label>Query Type*</label>
+        </div>
+        <!-- general enqiry and support requests-->
+        <div class="query-type-flex">
+          <!-- general enquiry -->
+          <div class="query-type-radio-input" id="general-enquiry-div">
+            <input
+              type="radio"
+              name="query"
+              id="general-enqiry"
+              class="query-type-radio"
+            />
+            <label for="general-enqiry">General Enquiry</label>
+          </div>
+          <!-- support request -->
+          <div class="query-type-radio-input" id="support-request-div">
+            <input
+              type="radio"
+              name="query"
+              id="support-request"
+              class="query-type-radio"
+            />
+            <label for="support-request">Support Request</label>
+          </div>
+        </div>
+      </section>
+      <!-- section-4 message -->
+      <section class="message">
+        <div class="message-label">
+          <label for="message">Message *</label>
+        </div>
+        <div>
+          <textarea name="" id="" cols="42" rows="14"></textarea>
+        </div>
+      </section>
+      <!-- section-5- content -->
+      <section class="consent">
+        <div class="consent-checkbox">
+          <input type="checkbox" name="" id="" />
+        </div>
+        <div>
+          <label for="consent">
+            I consent for being contacted by the team*</label
+          >
+        </div>
+      </section>
+      <!-- button -->
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
